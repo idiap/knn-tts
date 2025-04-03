@@ -1,0 +1,26 @@
+# SPDX-FileCopyrightText: 2024 Idiap Research Institute
+# SPDX-FileContributor: Karl El Hajal
+#
+# SPDX-License-Identifier: MIT
+
+version = 1
+SPDX-PackageName = "knn_tts"
+SPDX-PackageSupplier = "Karl El Hajal <karl.elhajal@idiap.ch>"
+
+[[annotations]]
+path = "poetry.lock"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2024 Idiap Research Institute"
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "knn_tts/vocoder/hifigan/config_v1_wavlm.json"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2020 Jungil Kong"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = "assets/diagram.png"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2024 Idiap Research Institute"
+SPDX-License-Identifier = "MIT"

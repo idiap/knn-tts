@@ -1,0 +1,44 @@
+# SPDX-FileCopyrightText: 2024 Idiap Research Institute
+# SPDX-FileContributor: Karl El Hajal
+#
+# SPDX-License-Identifier: MIT
+
+[tool.poetry]
+name = "knn-tts"
+version = "0.1.0"
+description = ""
+authors = ["Karl ELHAJAL <karl.elhajal@idiap.ch>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+torch = "^2.3.1"
+coqui-tts = "^0.24.1"
+coqui-tts-trainer = "^0.1.4"
+pandas = "^2.2.2"
+numpy = ">=1.22.0,<2.0.0"
+webrtcvad = "^2.0.10"
+pydub = "^0.25.1"
+
+
+[tool.poetry.group.dev.dependencies]
+reuse = "^4.0.3"
+pre-commit = "^3.7.1"
+ruff = "^0.5.2"
+pylint = "^3.2.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+target-version = "py311"
+line-length = 200
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "Q"]
+ignore = ["E501", "E741"]
+
+[tool.ruff.format]
+exclude = ["E501"]
