@@ -12,6 +12,9 @@ SPDX-License-Identifier: MIT
 
 [![Open in Spaces](https://huggingface.co/datasets/huggingface/badges/resolve/main/open-in-hf-spaces-sm.svg)](https://huggingface.co/spaces/karlhajal/kNN-TTS)
 
+[![Model on HF](https://huggingface.co/datasets/huggingface/badges/resolve/main/model-on-hf-sm.svg)](https://huggingface.co/Idiap/kNN-TTS)
+
+
 Simple and lightweight Zero-shot Text-to-Speech (TTS) synthesis model. It leverages self-supervised learning (SSL) features and kNN retrieval methods to achieve robust zero-shot synthesis, matching the performance of state-of-the-art models that are more complex and trained on much larger datasets of transcribed speech. The kNN-TTS framework's low training requirements make it suitable for developing zero-shot multi-speaker models in low-resource settings. Additionally, it offers voice morphing capabilities with precise control over the output using an interpolation parameter, allowing for seamless blending of source and target speech styles.
 
 ![kNN-TTS Framework Overview](assets/diagram.png)
