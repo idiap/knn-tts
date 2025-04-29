@@ -138,13 +138,22 @@ We would like to thanks the authors of the following repos, from which we have a
 ## Citation
 
 ```bibtex
-@misc{hajal2025knntts,
-      title={kNN Retrieval for Simple and Effective Zero-Shot Multi-speaker Text-to-Speech}, 
-      author={Karl El Hajal and Ajinkya Kulkarni and Enno Hermann and Mathew Magimai.-Doss},
-      year={2025},
-      eprint={2408.10771},
-      archivePrefix={arXiv},
-      primaryClass={eess.AS},
-      url={https://arxiv.org/abs/2408.10771}, 
+@inproceedings{hajal-etal-2025-knn,
+    title = "k{NN} Retrieval for Simple and Effective Zero-Shot Multi-speaker Text-to-Speech",
+    author = "Hajal, Karl El  and
+      Kulkarni, Ajinkya  and
+      Hermann, Enno  and
+      Magimai Doss, Mathew",
+    editor = "Chiruzzo, Luis  and
+      Ritter, Alan  and
+      Wang, Lu",
+    booktitle = "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 2: Short Papers)",
+    month = apr,
+    year = "2025",
+    address = "Albuquerque, New Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.naacl-short.65/",
+    pages = "778--786",
+    ISBN = "979-8-89176-190-2"
 }
 ```
